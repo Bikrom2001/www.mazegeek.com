@@ -1,0 +1,59 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+ @media (max-width: 575.98px) { 
+    .hedaer-logo img{
+        display: none;
+    }
+    .content{
+        margin-top: 520px;
+    }
+    .about-tiitle h2{
+        color: #212529;
+    }
+    .tenc-stats-main__heading{
+        width: 100%;
+        margin: auto;
+    }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* .hedaer-logo img{
+        display: none;
+    } */
+    .content{
+        margin-top: 120px;
+    }
+
+    .tenc-stats-main__heading{
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* .hedaer-logo img{
+        display: none;
+    } */
+    .content{
+        margin-top: 120px;
+    }
+    .tenc-stats-main__heading{
+        width: 100%;
+        margin: auto;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+
+}
